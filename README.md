@@ -16,10 +16,10 @@ There are 6 steps to process this properly:
 For residual postings (over or under), FI_CLEARING_CREATE will add the lines to lt_accit.
 
 Change the following fields on the open item:
-ls_open_item_tab-diffw "Amount Difference in Foreign Currency
-ls_open_item_tab-difhw "Amount Difference in Local Currency
-ls_open_item_tab-xvort = abap_true. "Indicator: Carryforward residual bal. for pmnt difference
-ls_open_item_tab-rstgn "Reason Code
+- ls_open_item_tab-diffw "Amount Difference in Foreign Currency
+- ls_open_item_tab-difhw "Amount Difference in Local Currency
+- ls_open_item_tab-xvort = abap_true. "Indicator: Carryforward residual bal. for pmnt difference
+- ls_open_item_tab-rstgn "Reason Code
 
 Using this we now have support for every possible scenario.
 
