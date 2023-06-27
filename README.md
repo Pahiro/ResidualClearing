@@ -1,7 +1,7 @@
 # ResidualClearing
 SAP Sample Program for Residual Clearing
 
-We were sitting with a problem where short payments and over payments couldn't post a residual clearing and everything comment on the subject just indicated that the devleoper gave up and dit a customized BDC. Unfortunately for our case, we needed something a little more robust that could be implemented as a webservice.
+We were sitting with a problem where short payments and over payments couldn't post a residual clearing and every comment on the subject, just indicated that the devleoper gave up and did a custom BDC. Unfortunately for our case, we needed something a little more robust that could be implemented as a webservice.
 
 This is the result. 
 
